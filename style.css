@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  width: 700px;
+  height: 600px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+header {
+  width: auto;
+  height: 150px;
+  background-color: black;
+}
+
+main {
+  width: auto;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  width: auto;
+  height: 100px;
+  background-color: black;
+  color: blueviolet;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: blueviolet;
+  padding-top: 15px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+p {
+  font-size: 50px;
+}
+.player {
+  text-align: left;
+}
+.spieler {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.countPlayer {
+  text-align: left;
+}
+.scissorPlayer {
+  padding-top: 50px;
+}
+.rockPlayer {
+  padding-top: 50px;
+}
+.paperPlayer {
+  padding-top: 50px;
+}
+.auswahl {
+  padding: 0;
+  padding-top: 20px;
+  font-size: 40px;
+  list-style: none;
+}
+.gewonnen {
+  font-size: 40px;
+  padding-top: 90px;
+}
+.maschiene {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.computer {
+  text-align: right;
+}
+.countComputer {
+  text-align: right;
+}
+.scissorComputer {
+  padding-top: 50px;
+}
+.rockComputer {
+  padding-top: 50px;
+}
+.paperComputer {
+  padding-top: 50px;
+}
+.clearPoints {
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: blueviolet;
+}

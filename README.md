@@ -1,10 +1,9 @@
 # Rock-Paper-Scissor
 
-Stein schlägt Schere -- 
-Papier schlägt Stein -- 
-Schere schlägt Papier
+Der Spieler wählt in der Mitte entweder Schere, Stein oder Papier aus.
+Der Computer wählt zufällig aus den drei Optionen aus.
+Das Spiel wird so lange gespielt bis entweder der Computer oder der Spieler 5 Punkte gesammelt hat.
 
-Über den Input gibt man entweder Schere, Stein oder Papier ein.
-Man spielt über 5 Runden gegen den Computer.
-In der Konsole (F12) sieht man den Punktestand des Spielers, des Computers und wie viele Unentschieden es gegeben hat.
-
+- Stein schlägt Schere
+- Papier schlägt Stein
+- Schere schlägt Papier
